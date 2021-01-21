@@ -1,0 +1,49 @@
+.btn-primary {
+  background: #ff9900;
+  border: 0;
+  padding: 15px 40px 15px 40px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  background-color: #ee8f00;
+  border: 0;
+}
+
+.btn-secondary {
+  background: none;
+  border: 1px solid #bcd0e5;
+  padding: 15px 40px 15px 40px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #173a56;
+}
+
+.btn-secondary:hover {
+  background: none;
+  border: 1px solid rgb(159, 177, 197);
+  color: #173a56;
+}
+
+.herobwa h1 {
+  font-family: "Poppins";
+  font-weight: 700;
+}
+
+.herobwa p {
+  font-family: "Poppins";
+  font-weight: 400;
+}
+
+.navbar-nav .nav-link {
+  color: #2f281e;
+}
+
+@media only screen and (max-width: 768px) {
+  .btn-primary,
+  .btn-secondary {
+    margin-top: 10px;
+    margin-left: 0 !important;
+  }
+}
